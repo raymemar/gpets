@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+# GPets 🐾 | Rede Social Colaborativa para Animais Perdidos e em Situação de Rua
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)](https://github.com/seu-usuario/seu-repositorio)
+[![Tecnologia Principal](https://img.shields.io/badge/Tecnologia-React%20Native%20%7C%20Expo-blue)](https://reactnative.dev/)
+[![Licença](https://img.shields.io/badge/Licença-MIT-green)](LICENSE)
 
-## Get started
+## 🌟 Sobre o Projeto
 
-1. Install dependencies
+O **GPets** é um aplicativo móvel desenvolvido para enfrentar o crescente problema socioambiental da grande quantidade de animais perdidos e em situação de rua em diversos municípios.
 
-   ```bash
-   npm install
-   ```
+A falta de plataformas dedicadas e centralizadas para essa causa dificulta a comunicação e a ação rápida. O **GPets** surge como a solução, criando uma rede social colaborativa focada exclusivamente em:
 
-2. Start the app
+1.  **Reportar Animais Perdidos:** Proprietários podem publicar informações detalhadas sobre seus pets desaparecidos.
+2.  **Reportar Animais Encontrados:** Usuários podem postar sobre animais que encontraram na rua, facilitando o reencontro com o dono.
+3.  **Oferecer Ajuda:** Criação de uma comunidade para doações, lares temporários, resgates e outras formas de auxílio.
 
-   ```bash
-   npx expo start
-   ```
+Nosso propósito é centralizar, facilitar e tornar mais eficaz a comunicação, transformando a maneira como a comunidade se mobiliza para ajudar esses animais.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 💡 O Problema que Resolvemos
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Em muitas cidades, a busca por um animal perdido ou a tentativa de ajudar um animal de rua é dispersa, ocorrendo em diversos grupos de redes sociais e plataformas não integradas. Isso resulta em:
 
-## Get a fresh project
+*   **Comunicação Lenta:** Informações cruciais demoram a chegar às pessoas certas.
+*   **Desorganização:** Dificuldade em filtrar e localizar posts por região.
+*   **Falta de Foco:** A causa animal se perde em meio a outros conteúdos.
 
-When you're ready, run:
+O GPets resolve isso fornecendo uma plataforma única, focada e baseada em **geolocalização** para conectar quem precisa de ajuda com quem pode ajudar.
+
+---
+
+## ✨ Funcionalidades Principais (Em Desenvolvimento)
+
+*   **Criação de Posts:** Categorias específicas (Perdido, Encontrado, Ajuda).
+*   **Geolocalização:** Visualização de posts em um mapa interativo, mostrando a última localização conhecida ou o local do encontro.
+*   **Filtros Avançados:** Filtragem por espécie, raça, porte e status (urgente, resolvido).
+*   **Perfis de Usuários:** Sistema de reputação e histórico de contribuições.
+*   **Notificações:** Alertas sobre posts em áreas de interesse do usuário.
+
+---
+
+## 🛠️ Stack Tecnológico
+
+O GPets é um aplicativo móvel moderno e multiplataforma, construído com as seguintes tecnologias:
+
+| Categoria | Tecnologia |
+| :--- | :--- |
+| **Framework** | Expo |
+| **Linguagem/Biblioteca** | React Native (JavaScript/TypeScript) |
+| **Navegação** | React Navigation |
+| **Estado (Exemplo)** | Context API / Redux / Zustand (Ajuste conforme o seu projeto) |
+| **Backend/Banco de Dados (Exemplo)** | Firebase / AWS Amplify / MongoDB (Ajuste conforme o seu projeto) |
+
+---
+
+## 🚀 Como Rodar o Projeto Localmente
+
+Siga estas instruções para configurar e executar o projeto em sua máquina local.
+
+### Pré-requisitos
+
+Este é um projeto [Expo](https://expo.dev) criado com [`create-expo-app`](https://www.npmjs.com/package/create-expo-app). Certifique-se de ter o Node.js e o npm/yarn instalados.
+
+### 1. Instalar Dependências
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
